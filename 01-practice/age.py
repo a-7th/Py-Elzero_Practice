@@ -1,6 +1,6 @@
 # #input age
 
-age = int(input('Enter your birth year please: ').strip())
+age = int(input('Enter Your birth year please: ').strip())
 print(type((age)))
 print("=" * 80)
 #all times age

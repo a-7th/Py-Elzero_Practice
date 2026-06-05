@@ -4,7 +4,7 @@ def dec1(func):
     def nest(): #any name it's just for decoration
         print("Before") #msg from decoration
         func() #execute function
-        print("After ") #msg from decoration
+        print("Afeter ") #msg from decoration
     return(nest) #return all date
 
 def hello():

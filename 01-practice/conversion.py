@@ -11,7 +11,7 @@ print(tuple(b))
 print(type(tuple(b)))
 print(tuple(b1))
 print(type(list(b1)))
-print('-' * 5)
+print('-' * 10)
 #list() to turn any type to list
 b = (2, 3, 5) #tuple
 b1 = {2, 3, 5} #set

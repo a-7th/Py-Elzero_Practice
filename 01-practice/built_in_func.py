@@ -4,7 +4,7 @@
 #id() address of item in memory
 x = [76, 86, 0, 32]
 if all(x):
-    print("all elements are True")
+    print("All Elements Are True")
 else:
     print("at least one of elements is False")
     

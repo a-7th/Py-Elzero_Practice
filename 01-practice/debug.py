@@ -7,6 +7,6 @@ for num in list:
 for key, value in dict.items():
     print(f"{key}=> {value}")
 def func():
-    print("pipi")
+    print("Pipi")
     
 func() #debug done ela ma 3e9ltich 3la chno drna hna sir dfn krk

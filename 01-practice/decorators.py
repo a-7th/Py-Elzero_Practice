@@ -8,7 +8,7 @@ def dec1(func):
     return(nest) #return all date
 
 def hello():
-    print("Helo")
+    print("Hello")
 print("="*20)    
 
 afterdecoration = dec1(hello)

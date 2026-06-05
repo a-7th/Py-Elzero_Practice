@@ -2,13 +2,13 @@
 
 def dec1(func):
     def nest(): #any name it's just for decoration
-        print("before") #msg from decoration
+        print("Before") #msg from decoration
         func() #execute function
-        print("after ") #msg from decoration
+        print("After ") #msg from decoration
     return(nest) #return all date
 
 def hello():
-    print("hello")
+    print("Hello")
 print("="*20)    
 
 afterdecoration = dec1(hello)
@@ -17,13 +17,13 @@ print("=" * 8)
 
 @dec1
 def hallo():
-    print("hallo")
+    print("Hallo")
 hallo()
 print("="*20)
 
 #without decoration
 def pipi():
-    print("pipi")
+    print("Pipi")
 pipi()
 print("o"*20)
 
@@ -39,9 +39,9 @@ print("o"*20)
 
 def dec2(func):
     def nest(a, b): #any name it's just for decoration
-        print("before") #msg from decoration
+        print("Before") #msg from decoration
         func(a, b) #execute function
-        print("after ") #msg from decoration
+        print("After ") #msg from decoration
     return(nest) #return all date
 
 @dec2

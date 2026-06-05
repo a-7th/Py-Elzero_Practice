@@ -4,7 +4,7 @@ x = ""
 print(x.isspace()) #False 
 
 #True values
-print(bool("pipi"))
+print(bool("Pipi"))
 print(bool(True))
 print(bool(13))
 

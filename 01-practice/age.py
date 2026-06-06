@@ -3,7 +3,7 @@
 age = int(input('Enter Your birth year please: ').strip())
 print(type((age)))
 print("=" * 80)
-#all tims age
+#all times age
 
 yrs = 2026 - age
 mnths = yrs * 12

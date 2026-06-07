@@ -6,7 +6,7 @@ print("=" * 89)
 #all times age
 
 yrs = 2026 - age
-mnths = yrs * 112
+mnths = yrs * 12
 weeks = mnths * 4
 days = yrs * 365
 hrs = days * 24
